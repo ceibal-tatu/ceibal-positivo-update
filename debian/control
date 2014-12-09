@@ -1,0 +1,18 @@
+Source: ceibal-positivo-update
+Section: admin
+Priority: required
+Maintainer: Plan Ceibal <ceibal@plan.ceibal.edu.uy>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/ceibal-tatu/ceibal-positivo-update.git
+Vcs-Browser: https://github.com/ceibal-tatu/ceibal-positivo-update
+
+Package: ceibal-positivo-update
+Architecture: all
+Depends: ${misc:Depends},${ceibal:Depends}
+Conflicts: ${ceibal:Removes}
+Replaces: ${ceibal:Removes}
+Description: Metapaquete para actualizacion de equipos Positivo de Ceibal.
+ Lista dependencias a paquetes con actualizaciones para equipos Positivo con 
+ imagen BGH2 de Ceibal.
+ -- metapackage.
